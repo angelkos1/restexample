@@ -1,9 +1,7 @@
 # Para realizar Pruebas
 
 ### Configuración BD
-revisar en el archivo application.properties la base de datos generada.
-
-Ejecutar en la base de datos generada "db" el script ubicado en la siguiente ruta src/main/resources/db/script_bd.sql
+revisar en el archivo application.properties la base de datos generada en memoria con la configuración del datasource, el script se crea automáticamente con las entidades.
 
 ### Configuración Regex de Password
 
